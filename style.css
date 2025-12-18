@@ -2261,3 +2261,238 @@ footer {
         width: calc(50% - 10px);
     }
 }
+
+/* ===== ОСНОВНЫЕ СТИЛИ ===== */
+/* ... существующие стили ... */
+
+/* ===== БОЛЬШАЯ КАРТИНКА ПОСЛЕ НАЧАЛА ===== */
+.full-width-image-container {
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.full-width-image {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    position: relative;
+    height: 500px;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.full-width-image:hover img {
+    transform: scale(1.05);
+}
+
+.image-overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: white;
+    padding: 40px;
+}
+
+.image-overlay-text h3 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.image-overlay-text p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* ===== КОНТЕЙНЕРЫ ДЛЯ ИЗОБРАЖЕНИЙ В РАЗДЕЛАХ ===== */
+.section-image-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.section-image-container.dark {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.section-image {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    position: relative;
+}
+
+.section-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.section-image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: white;
+    padding: 25px;
+}
+
+.section-image-caption h4 {
+    color: white;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-image-caption p {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+}
+
+/* ===== ПЛЕЙСХОЛДЕРЫ ДЛЯ КАРТИНОК В КАРТОЧКАХ ===== */
+.card-image-placeholder {
+    background: linear-gradient(135deg, var(--light-color), #dfe6e9);
+    border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    border: 2px dashed #b2bec3;
+}
+
+.card-image-placeholder i {
+    font-size: 3rem;
+    color: var(--text-light);
+    margin-bottom: 15px;
+}
+
+.card-image-placeholder p {
+    color: var(--text-light);
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* ===== ИЗОБРАЖЕНИЯ В ИНФОГРАФИКЕ ===== */
+.infographic-image {
+    margin: 30px 0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.infographic-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* ===== ИЗОБРАЖЕНИЯ В ПРОЦЕССАХ ===== */
+.process-image {
+    padding: 0 25px;
+    margin: 20px 0;
+}
+
+.process-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background: var(--light-color);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* ===== ИЗОБРАЖЕНИЯ В ПРИНЦИПАХ ===== */
+.principles-image {
+    margin: 30px 0 40px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.principles-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ===== АДАПТИВНОСТЬ ===== */
+@media (max-width: 992px) {
+    .full-width-image {
+        height: 400px;
+    }
+    
+    .image-overlay-text {
+        padding: 30px;
+    }
+    
+    .image-overlay-text h3 {
+        font-size: 1.8rem;
+    }
+    
+    .section-image img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .full-width-image {
+        height: 300px;
+    }
+    
+    .image-overlay-text {
+        padding: 20px;
+    }
+    
+    .image-overlay-text h3 {
+        font-size: 1.5rem;
+    }
+    
+    .image-overlay-text p {
+        font-size: 1rem;
+    }
+    
+    .section-image img {
+        height: 250px;
+    }
+    
+    .section-image-caption {
+        padding: 20px;
+    }
+    
+    .card-image-placeholder {
+        padding: 30px 15px;
+    }
+    
+    .infographic-image img {
+        height: 200px;
+    }
+    
+    .principles-image img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .full-width-image {
+        height: 250px;
+    }
+    
+    .image-overlay-text h3 {
+        font-size: 1.3rem;
+    }
+    
+    .section-image img {
+        height: 200px;
+    }
+}
