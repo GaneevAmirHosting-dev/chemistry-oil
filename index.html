@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Химия нефти: от добычи до переработки</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-oil-can"></i>
+                <span>Химия Нефти</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="#composition" class="nav-link"><i class="fas fa-atom"></i> Состав</a></li>
+                <li><a href="#processes" class="nav-link"><i class="fas fa-industry"></i> Процессы</a></li>
+                <li><a href="#simulator" class="nav-link"><i class="fas fa-flask"></i> Симулятор</a></li>
+                <li><a href="#ecology" class="nav-link"><i class="fas fa-leaf"></i> Экология</a></li>
+                <li><a href="#gallery" class="nav-link"><i class="fas fa-images"></i> Галерея</a></li>
+            </ul>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Нефть: Черное Золото Планеты</h1>
+            <p class="hero-subtitle">От добычи до современных технологий переработки</p>
+            <p class="hero-text">Исследуйте мир углеводородов, сложные химические процессы и узнайте, как сырая нефть превращается в тысячи полезных продуктов, от топлива до пластиков и лекарств.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <i class="fas fa-gas-pump"></i>
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Продуктов</span>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-industry"></i>
+                    <span class="stat-number">80%</span>
+                    <span class="stat-label">Мировой энергетики</span>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-recycle"></i>
+                    <span class="stat-number">6000</span>
+                    <span class="stat-label">Заводов в мире</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#simulator" class="btn btn-primary">
+                    <i class="fas fa-play-circle"></i>
+                    Запустить Симулятор
+                </a>
+                <a href="#composition" class="btn btn-secondary">
+                    <i class="fas fa-book"></i>
+                    Изучить Теорию
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-frame">
+                <img src="https://images.unsplash.com/photo-1541336032412-2048a678540d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                     alt="Нефтяная платформа" 
+                     class="hero-img">
+                <div class="image-caption">
+                    <i class="fas fa-info-circle"></i>
+                    Морская нефтяная платформа в Северном море
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Химический состав -->
+    <section id="composition" class="section">
+        <div class="section-header">
+            <h2>
+                <i class="fas fa-vial"></i>
+                Химический состав нефти
+            </h2>
+            <p class="section-subtitle">Сложная природная смесь углеводородов и гетероатомных соединений</p>
+        </div>
+
+        <div class="cards-grid">
+            <!-- Карточка 1: Основные углеводороды -->
+            <div class="card card-wide">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Углеводороды (80-90%)</h3>
+                    <span class="card-badge">Основной компонент</span>
+                </div>
+                <div class="card-content">
+                    <p>Основа нефти — соединения углерода (C) и водорода (H):</p>
+                    <div class="chemical-list">
+                        <div class="chemical-item">
+                            <div class="chemical-name">
+                                <i class="fas fa-chain"></i>
+                                <strong>Алканы (парафины)</strong>
+                            </div>
+                            <div class="chemical-formula">C<sub>n</sub>H<sub>2n+2</sub></div>
+                            <p class="chemical-desc">Прямые и разветвленные цепи. Метан (CH₄), гексан (C₆H₁₄)</p>
+                        </div>
+                        <div class="chemical-item">
+                            <div class="chemical-name">
+                                <i class="fas fa-infinity"></i>
+                                <strong>Циклоалканы (нафтены)</strong>
+                            </div>
+                            <div class="chemical-formula">Циклические структуры</div>
+                            <p class="chemical-desc">Повышают плотность и качество топлива</p>
+                        </div>
+                        <div class="chemical-item">
+                            <div class="chemical-name">
+                                <i class="fas fa-ring"></i>
+                                <strong>Арены (ароматические)</strong>
+                            </div>
+                            <div class="chemical-formula">C₆H₆, C₇H₈</div>
+                            <p class="chemical-desc">Бензол, толуол — высокое октановое число</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 2: Примеси -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Гетероатомные соединения</h3>
+                    <span class="card-badge warning">Требуют очистки</span>
+                </div>
+                <div class="card-content">
+                    <p class="card-warning">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <strong>Сернистые соединения</strong> — основные загрязнители, вызывают коррозию оборудования
+                    </p>
+                    <ul class="impurities-list">
+                        <li><strong>Сера (S):</strong> до 5%, образует H₂S, SO₂</li>
+                        <li><strong>Азот (N):</strong> до 1%, осложняет переработку</li>
+                        <li><strong>Кислород (O):</strong> кислоты, смолы</li>
+                        <li><strong>Металлы:</strong> V, Ni — отравляют катализаторы</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <p class="formula-box">
+                        <strong>Гидроочистка:</strong>
+                        <span class="formula">R-S-R' + 2H₂ → R-H + R'-H + H₂S</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Карточка 3: Физические свойства -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <i class="fas fa-weight-hanging"></i>
+                    </div>
+                    <h3>Физические свойства</h3>
+                </div>
+                <div class="card-content">
+                    <div class="property">
+                        <div class="property-header">
+                            <span class="property-name">Плотность</span>
+                            <span class="property-value">730-1040 кг/м³</span>
+                        </div>
+                        <div class="property-bar">
+                            <div class="property-fill light" style="width: 30%">
+                                <span>Легкая</span>
+                            </div>
+                            <div class="property-fill medium" style="width: 40%">
+                                <span>Средняя</span>
+                            </div>
+                            <div class="property-fill heavy" style="width: 30%">
+                                <span>Тяжелая</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="property">
+                        <div class="property-header">
+                            <span class="property-name">Вязкость</span>
+                            <span class="property-value">Зависит от T°</span>
+                        </div>
+                        <div class="property-desc">
+                            Снижается при нагреве, осложняет добычу
+                        </div>
+                    </div>
+                    
+                    <div class="property">
+                        <div class="property-header">
+                            <span class="property-name">Цвет</span>
+                            <span class="property-value">От светлого до черного</span>
+                        </div>
+                        <div class="property-desc">
+                            Определяется содержанием смол и асфальтенов
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Инфографика: Типы нефти -->
+        <div class="infographic">
+            <h3><i class="fas fa-chart-bar"></i> Сравнение типов нефти</h3>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <div class="oil-sample light-oil"></div>
+                    <div class="comparison-content">
+                        <h4>Легкая нефть</h4>
+                        <ul>
+                            <li>Плотность: 0.65-0.87 г/см³</li>
+                            <li>Выход бензина: 25-30%</li>
+                            <li>Сера: < 0.5%</li>
+                            <li>Цвет: светло-коричневый</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="comparison-item">
+                    <div class="oil-sample heavy-oil"></div>
+                    <div class="comparison-content">
+                        <h4>Тяжелая нефть</h4>
+                        <ul>
+                            <li>Плотность: >0.87 г/см³</li>
+                            <li>Выход мазута: 40-50%</li>
+                            <li>Сера: 1-5%</li>
+                            <li>Цвет: темно-коричневый до черного</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Процессы переработки -->
+    <section id="processes" class="section dark-section">
+        <div class="section-header">
+            <h2>
+                <i class="fas fa-cogs"></i>
+                Процессы переработки нефти
+            </h2>
+            <p class="section-subtitle">От простой перегонки до сложных химических превращений</p>
+        </div>
+
+        <div class="process-timeline">
+            <!-- Этап 1: Ректификация -->
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="marker-icon">
+                        <i class="fas fa-filter"></i>
+                    </div>
+                    <div class="marker-line"></div>
+                </div>
+                <div class="timeline-content">
+                    <div class="process-card">
+                        <div class="process-header">
+                            <h3>Ректификация (Фракционная перегонка)</h3>
+                            <span class="process-type">Физический процесс</span>
+                        </div>
+                        <div class="process-body">
+                            <p><strong>Цель:</strong> Разделение нефти на фракции по температурам кипения</p>
+                            <div class="process-fractions">
+                                <div class="fraction-item" style="--fraction-color: #74b9ff;">
+                                    <span class="fraction-name">Газы</span>
+                                    <span class="fraction-temp">< 40°C</span>
+                                </div>
+                                <div class="fraction-item" style="--fraction-color: #fdcb6e;">
+                                    <span class="fraction-name">Бензин</span>
+                                    <span class="fraction-temp">40-180°C</span>
+                                </div>
+                                <div class="fraction-item" style="--fraction-color: #a29bfe;">
+                                    <span class="fraction-name">Нафта</span>
+                                    <span class="fraction-temp">180-250°C</span>
+                                </div>
+                                <div class="fraction-item" style="--fraction-color: #55efc4;">
+                                    <span class="fraction-name">Дизель</span>
+                                    <span class="fraction-temp">250-350°C</span>
+                                </div>
+                                <div class="fraction-item" style="--fraction-color: #2d3436;">
+                                    <span class="fraction-name">Мазут</span>
+                                    <span class="fraction-temp">> 350°C</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Этап 2: Крекинг -->
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="marker-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="marker-line"></div>
+                </div>
+                <div class="timeline-content">
+                    <div class="process-card">
+                        <div class="process-header">
+                            <h3>Крекинг (от англ. to crack — расщеплять)</h3>
+                            <span class="process-type">Химический процесс</span>
+                        </div>
+                        <div class="process-body">
+                            <p><strong>Цель:</strong> Получение более легких продуктов из тяжелых фракций</p>
+                            <div class="process-details">
+                                <div class="detail-column">
+                                    <h4><i class="fas fa-thermometer-full"></i> Термический крекинг</h4>
+                                    <ul>
+                                        <li>Температура: 450-550°C</li>
+                                        <li>Высокое давление</li>
+                                        <li>Реакции пиролиза (разложения)</li>
+                                    </ul>
+                                </div>
+                                <div class="detail-column">
+                                    <h4><i class="fas fa-vial"></i> Каталитический крекинг</h4>
+                                    <ul>
+                                        <li>Температура: 450-500°C</li>
+                                        <li>Цеолитные катализаторы</li>
+                                        <li>Более качественный бензин</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="chemical-reaction">
+                                <p class="reaction-title">Пример реакции крекинга:</p>
+                                <div class="reaction-formula">
+                                    <span class="reactant">C₁₆H₃₄ (гексадекан)</span>
+                                    <span class="reaction-arrow">→</span>
+                                    <div class="products">
+                                        <span class="product">C₈H₁₈ (октан)</span>
+                                        <span class="plus">+</span>
+                                        <span class="product">C₈H₁₆ (октен)</span>
+                                    </div>
+                                </div>
+                                <p class="reaction-desc">Расщепление длинных цепей на более короткие</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Этап 3: Риформинг -->
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="marker-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <div class="marker-line"></div>
+                </div>
+                <div class="timeline-content">
+                    <div class="process-card">
+                        <div class="process-header">
+                            <h3>Риформинг (от англ. to reform — преобразовывать)</h3>
+                            <span class="process-type">Каталитический процесс</span>
+                        </div>
+                        <div class="process-body">
+                            <p><strong>Цель:</strong> Повышение октанового числа бензина и получение ароматических углеводородов</p>
+                            
+                            <div class="reforming-reactions">
+                                <div class="reaction-card">
+                                    <h4><i class="fas fa-arrows-alt-h"></i> Изомеризация</h4>
+                                    <p>Линейные алканы → разветвленные</p>
+                                    <p class="small-formula">н-гексан → изогексан</p>
+                                </div>
+                                
+                                <div class="reaction-card">
+                                    <h4><i class="fas fa-wind"></i> Дегидрирование</h4>
+                                    <p>Нафтены → арены</p>
+                                    <p class="small-formula">C₆H₁₂ → C₆H₆ + 3H₂</p>
+                                </div>
+                                
+                                <div class="reaction-card">
+                                    <h4><i class="fas fa-ring"></i> Дегидроциклизация</h4>
+                                    <p>Линейные алканы → ароматические</p>
+                                    <p class="small-formula">C₆H₁₄ → C₆H₆ + 4H₂</p>
+                                </div>
+                            </div>
+                            
+                            <div class="octane-info">
+                                <div class="octane-card">
+                                    <div class="octane-number">95</div>
+                                    <div class="octane-label">АИ-95</div>
+                                    <div class="octane-desc">Высокооктановый бензин</div>
+                                </div>
+                                <div class="octane-explanation">
+                                    <h4>Октановое число</h4>
+                                    <p>Показатель детонационной стойкости топлива:</p>
+                                    <ul>
+                                        <li><strong>0</strong> — н-гептан (C₇H₁₆)</li>
+                                        <li><strong>100</strong> — изооктан (2,2,4-триметилпентан)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Симулятор -->
+    <section id="simulator" class="section simulator-section">
+        <div class="section-header">
+            <h2>
+                <i class="fas fa-industry"></i>
+                Интерактивный симулятор
+            </h2>
+            <p class="section-subtitle">Управляйте процессом перегонки нефти в реальном времени</p>
+        </div>
+
+        <div class="simulator-container">
+            <!-- Панель управления -->
+            <div class="control-panel">
+                <div class="panel-header">
+                    <h3><i class="fas fa-sliders-h"></i> Панель управления</h3>
+                    <div class="panel-status" id="panelStatus">Готов к работе</div>
+                </div>
+                
+                <div class="control-group">
+                    <div class="control-label">
+                        <i class="fas fa-thermometer-half"></i>
+                        <span>Температура нагрева</span>
+                        <span class="control-value" id="tempValue">350°C</span>
+                    </div>
+                    <input type="range" id="tempSlider" min="150" max="450" value="350" step="10" class="slider">
+                    <div class="slider-labels">
+                        <span>150°C</span>
+                        <span>300°C</span>
+                        <span>450°C</span>
+                    </div>
+                    <p class="control-hint">Чем выше температура, тем больше тяжелых фракций переходит в легкие</p>
+                </div>
+
+                <div class="control-group">
+                    <label for="pressureSelect">
+                        <i class="fas fa-tachometer-alt"></i>
+                        Режим давления
+                    </label>
+                    <select id="pressureSelect" class="control-select">
+                        <option value="atm">Атмосферная перегонка (АВТ)</option>
+                        <option value="vacuum">Вакуумная перегонка</option>
+                    </select>
+                    <p class="control-hint">Вакуум снижает температуру кипения тяжелых фракций</p>
+                </div>
+
+                <div class="control-group">
+                    <label for="oilType">
+                        <i class="fas fa-oil-can"></i>
+                        Тип нефти
+                    </label>
+                    <select id="oilType" class="control-select">
+                        <option value="light">Легкая нефть (малосернистая)</option>
+                        <option value="heavy" selected>Тяжелая нефть (высокосернистая)</option>
+                    </select>
+                    <p class="control-hint">Тяжелая нефть дает больше мазута</p>
+                </div>
+
+                <div class="control-buttons">
+                    <button id="startBtn" class="btn btn-primary btn-large">
+                        <i class="fas fa-play-circle"></i>
+                        Запустить процесс
+                    </button>
+                    <button id="resetBtn" class="btn btn-secondary btn-large">
+                        <i class="fas fa-redo"></i>
+                        Сбросить
+                    </button>
+                </div>
+
+                <div class="status-panel">
+                    <div class="status-header">
+                        <h4><i class="fas fa-info-circle"></i> Статус процесса</h4>
+                        <span id="statusText">Ожидание запуска</span>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div id="progressFill" class="progress-fill"></div>
+                        </div>
+                        <span id="progressText" class="progress-text">0%</span>
+                    </div>
+                    <div class="current-params">
+                        <div class="param">
+                            <span class="param-label">Температура:</span>
+                            <span id="currentTemp" class="param-value">20°C</span>
+                        </div>
+                        <div class="param">
+                            <span class="param-label">Режим:</span>
+                            <span id="currentPressure" class="param-value">Атмосферный</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Визуализация установки -->
+            <div class="simulation-area">
+                <div class="distillation-plant">
+                    <!-- Резервуар с нефтью -->
+                    <div class="oil-tank">
+                        <div class="tank-label">Сырая нефть</div>
+                        <div class="tank-body">
+                            <div class="liquid oil-liquid" id="crudeOil"></div>
+                        </div>
+                        <div class="valve" id="inletValve">
+                            <div class="valve-handle"></div>
+                        </div>
+                    </div>
+
+                    <!-- Печь нагрева -->
+                    <div class="heater">
+                        <div class="heater-label">Печь нагрева</div>
+                        <div class="flame-container">
+                            <div class="flame" id="flame"></div>
+                        </div>
+                        <div class="heater-temp">
+                            <i class="fas fa-thermometer-full"></i>
+                            <span id="currentTempDisplay">20°C</span>
+                        </div>
+                    </div>
+
+                    <!-- Ректификационная колонна -->
+                    <div class="column">
+                        <div class="column-label">Ректификационная колонна</div>
+                        <div class="column-body">
+                            <!-- Тарелки -->
+                            <div class="tray" data-temp="40" style="top: 10%;">
+                                <div class="tray-label">40°C</div>
+                                <div class="fraction-level">
+                                    <div class="fraction" data-fraction="gases"></div>
+                                </div>
+                            </div>
+                            <div class="tray" data-temp="180" style="top: 30%;">
+                                <div class="tray-label">180°C</div>
+                                <div class="fraction-level">
+                                    <div class="fraction" data-fraction="gasoline"></div>
+                                </div>
+                            </div>
+                            <div class="tray" data-temp="250" style="top: 50%;">
+                                <div class="tray-label">250°C</div>
+                                <div class="fraction-level">
+                                    <div class="fraction" data-fraction="naphtha"></div>
+                                </div>
+                            </div>
+                            <div class="tray" data-temp="350" style="top: 70%;">
+                                <div class="tray-label">350°C</div>
+                                <div class="fraction-level">
+                                    <div class="fraction" data-fraction="diesel"></div>
+                                </div>
+                            </div>
+                            <div class="residue-tray" style="bottom: 0;">
+                                <div class="tray-label">>350°C</div>
+                                <div class="fraction-level">
+                                    <div class="fraction" data-fraction="residue"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Продукты -->
+                    <div class="products-collector">
+                        <div class="collector-title">Продукты</div>
+                        <div class="product-tanks">
+                            <div class="product-tank" data-product="gases">
+                                <div class="product-label">
+                                    <i class="fas fa-wind"></i>
+                                    <span>Газы</span>
+                                </div>
+                                <div class="product-liquid-container">
+                                    <div class="product-liquid" id="productGases"></div>
+                                    <div class="product-yield" id="yieldGases">0%</div>
+                                </div>
+                            </div>
+                            <div class="product-tank" data-product="gasoline">
+                                <div class="product-label">
+                                    <i class="fas fa-gas-pump"></i>
+                                    <span>Бензин</span>
+                                </div>
+                                <div class="product-liquid-container">
+                                    <div class="product-liquid" id="productGasoline"></div>
+                                    <div class="product-yield" id="yieldGasoline">0%</div>
+                                </div>
+                            </div>
+                            <div class="product-tank" data-product="naphtha">
+                                <div class="product-label">
+                                    <i class="fas fa-flask"></i>
+                                    <span>Нафта</span>
+                                </div>
+                                <div class="product-liquid-container">
+                                    <div class="product-liquid" id="productNaphtha"></div>
+                                    <div class="product-yield" id="yieldNaphtha">0%</div>
+                                </div>
+                            </div>
+                            <div class="product-tank" data-product="diesel">
+                                <div class="product-label">
+                                    <i class="fas fa-truck"></i>
+                                    <span>Дизель</span>
+                                </div>
+                                <div class="product-liquid-container">
+                                    <div class="product-liquid" id="productDiesel"></div>
+                                    <div class="product-yield" id="yieldDiesel">0%</div>
+                                </div>
+                            </div>
+                            <div class="product-tank" data-product="residue">
+                                <div class="product-label">
+                                    <i class="fas fa-industry"></i>
+                                    <span>Мазут</span>
+                                </div>
+                                <div class="product-liquid-container">
+                                    <div class="product-liquid" id="productResidue"></div>
+                                    <div class="product-yield" id="yieldResidue">0%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Результаты -->
+            <div class="results-panel">
+                <div class="results-header">
+                    <h3><i class="fas fa-chart-line"></i> Результаты</h3>
+                    <button id="exportBtn" class="btn btn-small">
+                        <i class="fas fa-download"></i>
+                        Экспорт
+                    </button>
+                </div>
+                
+                <div class="summary-cards">
+                    <div class="summary-card">
+                        <div class="summary-icon">
+                            <i class="fas fa-oil-can"></i>
+                        </div>
+                        <div class="summary-content">
+                            <h4>Тип нефти</h4>
+                            <p id="summaryOilType">Тяжелая</p>
+                        </div>
+                    </div>
+                    <div class="summary-card">
+                        <div class="summary-icon">
+                            <i class="fas fa-thermometer-half"></i>
+                        </div>
+                        <div class="summary-content">
+                            <h4>Температура</h4>
+                            <p id="summaryTemp">350°C</p>
+                        </div>
+                    </div>
+                    <div class="summary-card">
+                        <div class="summary-icon">
+                            <i class="fas fa-percentage"></i>
+                        </div>
+                        <div class="summary-content">
+                            <h4>Общий выход</h4>
+                            <p id="summaryYield">0%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-table">
+                    <table id="resultsTable">
+                        <thead>
+                            <tr>
+                                <th>Продукт</th>
+                                <th>Температура</th>
+                                <th>Выход</th>
+                                <th>Применение</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Заполнится JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="educational-note">
+                    <div class="note-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="note-content">
+                        <h4>Как это работает?</h4>
+                        <p>При нагреве нефти разные фракции испаряются при своих температурах кипения. Пары поднимаются по колонне, охлаждаются и конденсируются на соответствующих тарелках.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Экология и будущее -->
+    <section id="ecology" class="section">
+        <div class="section-header">
+            <h2>
+                <i class="fas fa-leaf"></i>
+                Экология и будущее
+            </h2>
+            <p class="section-subtitle">Современные подходы к минимизации воздействия на окружающую среду</p>
+        </div>
+
+        <div class="ecology-grid">
+            <!-- Проблемы -->
+            <div class="ecology-card problem-card">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Экологические проблемы</h3>
+                </div>
+                <div class="card-content">
+                    <div class="problem-item">
+                        <h4><i class="fas fa-smog"></i> Выбросы в атмосферу</h4>
+                        <ul>
+                            <li>SO₂, NOₓ — кислотные дожди</li>
+                            <li>CO, ЛОС — смог</li>
+                            <li>CO₂ — парниковый эффект</li>
+                            <li>Сажа — заболевания дыхательных путей</li>
+                        </ul>
+                    </div>
+                    <div class="problem-item">
+                        <h4><i class="fas fa-trash"></i> Токсичные отходы</h4>
+                        <ul>
+                            <li>Кислые гудроны</li>
+                            <li>Отработанные катализаторы</li>
+                            <li>Шламы с тяжелыми металлами</li>
+                        </ul>
+                    </div>
+                    <div class="problem-item">
+                        <h4><i class="fas fa-tint"></i> Загрязнение вод</h4>
+                        <ul>
+                            <li>Нефтепродукты</li>
+                            <li>Фенолы, сульфиды</li>
+                            <li>Высокоминерализованные стоки</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Решения -->
+            <div class="ecology-card solution-card">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>«Зеленая» химия в НПЗ</h3>
+                </div>
+                <div class="card-content">
+                    <div class="solution-item">
+                        <div class="solution-icon">
+                            <i class="fas fa-filter"></i>
+                        </div>
+                        <div class="solution-content">
+                            <h4>Глубокая гидроочистка</h4>
+                            <p>Удаление серы до экологических норм (Евро-5,6)</p>
+                            <p class="formula">R-SH + H₂ → RH + H₂S</p>
+                        </div>
+                    </div>
+                    
+                    <div class="solution-item">
+                        <div class="solution-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="solution-content">
+                            <h4>Энергоэффективность</h4>
+                            <p>Оптимизация тепловых потоков, утилизация тепла</p>
+                            <p>Снижение выбросов CO₂ на 20-30%</p>
+                        </div>
+                    </div>
+                    
+                    <div class="solution-item">
+                        <div class="solution-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <div class="solution-content">
+                            <h4>Биопереработка</h4>
+                            <p>Биокрекинг растительных масел → биодизель</p>
+                            <p>«Зеленое» авиатопливо</p>
+                        </div>
+                    </div>
+                    
+                    <div class="solution-item">
+                        <div class="solution-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <div class="solution-content">
+                            <h4>CCUS технологии</h4>
+                            <p>Улавливание, использование и хранение CO₂</p>
+                            <p>Превращение CO₂ в полезные продукты</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Принципы зеленой химии -->
+        <div class="principles">
+            <h3><i class="fas fa-certificate"></i> 12 принципов «зеленой» химии в нефтепереработке</h3>
+            <div class="principles-grid">
+                <div class="principle">
+                    <div class="principle-number">1</div>
+                    <div class="principle-content">
+                        <h4>Предотвращение отходов</h4>
+                        <p>Лучше не создавать отходы, чем бороться с ними</p>
+                    </div>
+                </div>
+                <div class="principle">
+                    <div class="principle-number">2</div>
+                    <div class="principle-content">
+                        <h4>Атомная экономичность</h4>
+                        <p>Максимальное включение всех атомов сырья в продукт</p>
+                    </div>
+                </div>
+                <div class="principle">
+                    <div class="principle-number">3</div>
+                    <div class="principle-content">
+                        <h4>Меньше опасных синтезов</h4>
+                        <p>Использование менее опасных веществ и процессов</p>
+                    </div>
+                </div>
+                <div class="principle">
+                    <div class="principle-number">4</div>
+                    <div class="principle-content">
+                        <h4>Более безопасные растворители</h4>
+                        <p>Вода, сверхкритический CO₂, ионные жидкости</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="section gallery-section">
+        <div class="section-header">
+            <h2>
+                <i class="fas fa-images"></i>
+                Галерея нефтепереработки
+            </h2>
+            <p class="section-subtitle">Визуализация процессов и технологий</p>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- Карточка с изображением 1 (большая) -->
+            <div class="gallery-card large-card">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1541336032412-2048a678540d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Нефтяная платформа">
+                    <div class="image-overlay">
+                        <h3>Морская добыча</h3>
+                        <p>Шельфовые месторождения Северного моря</p>
+                    </div>
+                </div>
+                <div class="gallery-content">
+                    <h4><i class="fas fa-water"></i> Офшорная добыча</h4>
+                    <p>Добыча нефти на шельфе требует специальных платформ, устойчивых к штормам и ледовой обстановке. Современные платформы могут добывать нефть с глубин до 3000 метров.</p>
+                </div>
+            </div>
+
+            <!-- Карточка с изображением 2 -->
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1565374399545-0e5d1a3dd0c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Нефтеперерабатывающий завод">
+                    <div class="image-overlay">
+                        <h3>НПЗ ночью</h3>
+                        <p>Освещение технологических установок</p>
+                    </div>
+                </div>
+                <div class="gallery-content">
+                    <h4><i class="fas fa-industry"></i> Нефтеперерабатывающий завод</h4>
+                    <p>Современный НПЗ работает круглосуточно. Ночная подсветка подчеркивает масштаб и сложность технологических процессов.</p>
+                </div>
+            </div>
+
+            <!-- Карточка с изображением 3 -->
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Каталитический крекинг">
+                    <div class="image-overlay">
+                        <h3>Каталитический крекинг</h3>
+                        <p>Сердце современного НПЗ</p>
+                    </div>
+                </div>
+                <div class="gallery-content">
+                    <h4><i class="fas fa-vial"></i> Каталитический крекинг</h4>
+                    <p>Установка каталитического крекинга позволяет получать высокооктановый бензин из тяжелых фракций нефти.</p>
+                </div>
+            </div>
+
+            <!-- Карточка с изображением 4 -->
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1565374399451-3d448a4d4c58?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Транспортировка нефти">
+                    <div class="image-overlay">
+                        <h3>Транспортировка</h3>
+                        <p>Нефтепроводы и танкеры</p>
+                    </div>
+                </div>
+                <div class="gallery-content">
+                    <h4><i class="fas fa-ship"></i> Логистика нефти</h4>
+                    <p>Транспортировка нефти осуществляется танкерами, нефтепроводами и железнодорожными цистернами.</p>
+                </div>
+            </div>
+
+            <!-- Карточка с изображением 5 -->
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1581094794326-1a1dd4eaad0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Лаборатория контроля качества">
+                    <div class="image-overlay">
+                        <h3>Контроль качества</h3>
+                        <p>Лабораторный анализ нефтепродуктов</p>
+                    </div>
+                </div>
+                <div class="gallery-content">
+                    <h4><i class="fas fa-flask"></i> Лабораторный контроль</h4>
+                    <p>Качество нефтепродуктов контролируется на всех стадиях производства в современных лабораториях.</p>
+                </div>
+            </div>
+
+            <!-- Карточка с изображением 6 -->
+            <div class="gallery-card">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Экологический мониторинг">
+                    <div class="image-overlay">
+                        <h3>Экология</h3>
+                        <p>Мониторинг окружающей среды</p>
+                    </div>
+                </div>
+                <div class="gallery-content">
+                    <h4><i class="fas fa-leaf"></i> Экологический контроль</h4>
+                    <p>Современные НПЗ оснащены системами непрерывного мониторинга выбросов и очистки сточных вод.</p>
+                </div>
+            </div>
+
+            <!-- Инфографика карточка -->
+            <div class="gallery-card wide-card infographic-card">
+                <div class="infographic-header">
+                    <h3><i class="fas fa-chart-pie"></i> Мировая нефтепереработка</h3>
+                </div>
+                <div class="infographic-content">
+                    <div class="infographic-item">
+                        <div class="infographic-number">100</div>
+                        <div class="infographic-label">млн баррелей в сутки</div>
+                        <div class="infographic-desc">Мировое потребление нефти</div>
+                    </div>
+                    <div class="infographic-item">
+                        <div class="infographic-number">650</div>
+                        <div class="infographic-label">НПЗ в мире</div>
+                        <div class="infographic-desc">Крупнейшие в США, Китае, России</div>
+                    </div>
+                    <div class="infographic-item">
+                        <div class="infographic-number">6000+</div>
+                        <div class="infographic-label">продуктов из нефти</div>
+                        <div class="infographic-desc">От топлива до лекарств</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Хронология карточка -->
+            <div class="gallery-card timeline-card">
+                <div class="timeline-header">
+                    <h3><i class="fas fa-history"></i> История нефтепереработки</h3>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">1859</div>
+                        <div class="timeline-content">
+                            <h4>Первая скважина</h4>
+                            <p>Эдвин Дрейк, Пенсильвания, США</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1891</div>
+                        <div class="timeline-content">
+                            <h4>Первый крекинг</h4>
+                            <p>Владимир Шухов, Россия</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1913</div>
+                        <div class="timeline-content">
+                            <h4>Каталитический крекинг</h4>
+                            <p>Уильям Бертон, США</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1960</div>
+                        <div class="timeline-content">
+                            <h4>Основание ОПЕК</h4>
+                            <p>Организация стран-экспортеров нефти</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4><i class="fas fa-oil-can"></i> Образовательный проект</h4>
+                <p>"Химия Нефти" — интерактивная платформа для изучения процессов нефтепереработки. Проект предназначен для учащихся 9-11 классов и студентов химических специальностей.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4><i class="fas fa-book"></i> Учебные материалы</h4>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-file-pdf"></i> Конспект по теме</a></li>
+                    <li><a href="#"><i class="fas fa-video"></i> Видеоуроки</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i> Тесты и задания</a></li>
+                    <li><a href="#"><i class="fas fa-download"></i> Презентация</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4><i class="fas fa-graduation-cap"></i> Для кого</h4>
+                <p>Учащиеся 9-11 классов, студенты нефтегазовых и химических специальностей, преподаватели химии и экологии.</p>
+                <div class="footer-stats">
+                    <div class="footer-stat">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Учащиеся</span>
+                    </div>
+                    <div class="footer-stat">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <span>Преподаватели</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 Образовательный проект "Химия Нефти". Все материалы предназначены для образовательных целей.</p>
+            <p>Интерактивный симулятор демонстрирует принципы физической и химической переработки нефти.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
